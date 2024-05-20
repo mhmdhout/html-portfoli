@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+
+  <title>Greeting Page</title>
+</head>
+<body>
+
+<script>
+  // Prompt the user for their name
+  const userName = prompt("What is your name?");
+  
+  // Prompt the user for their age
+  var userAge = prompt("How old are you?");
+  
+
+  if (userAge < 18) {
+     alert("Hello, " + userName + "! You are a minor. Welcome to our page!");
+  } else if (userAge >= 18 && userAge < 65) {
+     alert("Hello, " + userName + "! You are an adult. Welcome to our page!");
+  } else {
+     alert("Hello, " + userName + "! You are a senior citizen. Welcome to our page!");
+  }
+  
+  // Log the user's name and age to the console
+  console.log("User's name is: " + userName);
+  console.log("User's age is: " + userAge);
+  
+</script>
+
+</body>
+</html>
